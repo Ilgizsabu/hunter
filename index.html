@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter</title>
+</head>
+<style>
+    .square {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="square"></div>
+    <script>
+        const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'violet'];
+        let index = 0;
+        
+        const root = document.querySelector('.square');
+        root.addEventListener('click', () => {
+            root.style.backgroundColor = colors[index];
+            
+            if(index === colors.length){
+                index = 0;
+            } else {
+                index++;
+            }
+        });
+    </script>
+</body>
+</html>
