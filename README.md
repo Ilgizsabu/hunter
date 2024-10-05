@@ -13,7 +13,7 @@ When clicking:
   - Purple
   - Red and repeat the cycle .
 
-Use CSS3 \ \ animation for smooth transition .
+Use CSS3 \ animation for smooth transition .
 
 Animation starts only when you click .
 
