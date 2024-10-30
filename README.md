@@ -1,4 +1,4 @@
-# Hunter:
+# Hunter
 
 An interactive rainbow square that changes color when you tap .
 
